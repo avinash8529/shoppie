@@ -1,0 +1,40 @@
+$color_1: #ffffff;
+$color_2: #4796ff;
+$font-family_1: "Poppins", sans-serif;
+$background-color_1: #ffffff;
+$background-color_2: #e2e2e2;
+$background-color_3: #4796ff;
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+
+.container {
+	align-items: center;
+	// display: flex;
+	justify-content: center;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(253, 101, 133, 1) 0%, rgba(255, 211, 165, 1) 90% );
+}
+
+.button{
+	display: flex;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+}
+.counter{
+	font-size: 1.5rem;
+}
+.btn-counter{
+	border: 2px solid black ;
+	width: 10%;
+	margin: 3px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}

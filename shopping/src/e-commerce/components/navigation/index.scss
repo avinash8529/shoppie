@@ -1,0 +1,56 @@
+$color_1: #555;
+$color_2: #ffffff;
+$color_3: #ff523b;
+$color_4: #777777;
+$color_5: #8a8a8a;
+$color_6: #fff;
+$color_7: #555555;
+$font-family_1: "Poppins", sans-serif;
+
+/* Offer */
+/* testimonial */
+/* footer */
+/* media query for menu */
+/* all products page */
+/* single product details */
+/* cart items */
+/* account page */
+/* media query for less than 600 screen size */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: $font-family_1;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav {
+	flex: 1;
+	text-align: right;
+	ul {
+		display: inline-block;
+		list-style-type: none;
+		li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+	}
+}
+a {
+	text-decoration: none;
+	color: $color_1;
+}
+p {
+	color: $color_1;
+}
+.container {
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
